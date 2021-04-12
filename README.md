@@ -2,5 +2,5 @@
 *Metas*
 - [x] Criar Cabeçalho
 - [x] Criar Conteúdo Principal
-- [ ] Criar Rodapé
+- [x] Criar Rodapé
 - [ ] Criar Formulário
