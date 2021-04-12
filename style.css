@@ -126,3 +126,43 @@ select {
 }
 
 /* ----------------------------------------------------------------------- */
+/* CONTEUDO PRINCIPAL MAIN */
+
+.conteudoCentralizado{
+    width: 82vw; /*unidade que visa associar o valor à largura da tela*/
+    margin-left: 6vw; /*Duas linhas que centralizar um elemento*/
+    margin-right: auto;
+}
+
+.sobrenos{
+    margin-bottom: 10px;
+}
+
+.sobrenos h1{
+    margin-bottom: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.listaCategorias h2{
+    margin-bottom: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.listaCategorias li{
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.imagens{
+      margin-top: 10px;
+}
+
+.imagens img{
+    width: 235px;
+    height: 360px;
+    position: left;
+    margin-left: 5px;
+    border-radius: 2px;
+}
