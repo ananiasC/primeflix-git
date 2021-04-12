@@ -166,3 +166,29 @@ select {
     margin-left: 5px;
     border-radius: 2px;
 }
+
+/* ----------------------------------------------------------------------- */
+/* RODAPE */
+
+.rodape{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 2% 3%;
+    background: linear-gradient(to right,#0080ff, #1C1C1C);
+}
+
+.rodape h3{
+    padding: 1.5%;
+    color:rgba(255, 255, 255, 0.7);
+}
+
+.rodape h3 strong{
+   font-weight:bold;
+}
+
+.copyright{
+    color:rgba(255, 255, 255, 0.7);
+    padding: 1.5%;
+    text-align: center;
+}
