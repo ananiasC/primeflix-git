@@ -192,3 +192,59 @@ select {
     padding: 1.5%;
     text-align: center;
 }
+/* ----------------------------------------------------------------------- */
+/* FORMULARIO */
+.formulario{
+  width: 60vw; /*unidade que visa associar o valor à largura da tela*/
+  margin-left: auto; /*Duas linhas que centralizar um elemento*/
+  margin-right: auto;
+  margin-bottom: 130px;
+}
+
+.formulario form div input {
+    border: 1px solid #000;
+    height: 30px;
+    width: 92.8%;
+    color: black;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.linha{
+    margin-bottom: 10px;
+}
+
+.formulario textarea{
+    border: 1px solid #000;
+    width: 100%;
+    height: 50px;
+    color: black;
+}
+
+.botao{
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: black;
+    float: left;
+    width: 80%;
+    padding: 1% 1%;
+    border-radius: 4px;
+}
+
+#nome{
+    width: 60%;
+    margin-right: 20px;
+}
+
+#cidade{
+    width: 21%;
+}
+
+#selecoes{
+    margin-bottom: 10px;
+}
+
+.tipo-mensagem{
+    float: right;
+}
