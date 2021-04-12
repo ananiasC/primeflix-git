@@ -16,6 +16,65 @@
           </nav>
       </header>
       <main class="conteudoCentralizado">
+		<div class="formulario">
+              <form class="">
+                <div class="linha">
+                    <label>Nome:</label> <input type="text" pattern="[A-Za-z]{3,}" id="nome" value="" placeholder="Digite seu Nome" required>
+                    <label>Cidade:</label> <input type="text" name="" id="cidade" pattern="[A-Za-z]{3,}" placeholder="Digite sua cidade"  required>
+                </div>
+                <div class="" id="selecoes">
+                    <label >Estado:</label>
+                    <select name="estados-brasil"  required>
+                      	<option value="AC">Acre</option>
+                      	<option value="AL">Alagoas</option>
+                      	<option value="AP">Amapá</option>
+                      	<option value="AM">Amazonas</option>
+                      	<option value="BA">Bahia</option>
+                      	<option value="CE">Ceará</option>
+                      	<option value="DF">Distrito Federal</option>
+                      	<option value="ES">Espírito Santo</option>
+                      	<option value="GO">Goiás</option>
+                      	<option value="MA">Maranhão</option>
+                      	<option value="MT">Mato Grosso</option>
+                      	<option value="MS">Mato Grosso do Sul</option>
+                      	<option value="MG">Minas Gerais</option>
+                      	<option value="PA">Pará</option>
+                      	<option value="PB">Paraíba</option>
+                      	<option value="PR">Paraná</option>
+                      	<option value="PE">Pernambuco</option>
+                      	<option value="PI">Piauí</option>
+                      	<option value="RJ">Rio de Janeiro</option>
+                      	<option value="RN">Rio Grande do Norte</option>
+                      	<option value="RS">Rio Grande do Sul</option>
+                      	<option value="RO">Rondônia</option>
+                      	<option value="RR">Roraima</option>
+                      	<option value="SC">Santa Catarina</option>
+                      	<option value="SP">São Paulo</option>
+                      	<option value="SE">Sergipe</option>
+                      	<option value="TO">Tocantins</option>
+                    </select>
+                    <div class="tipo-mensagem">
+                        <label>Tipo de Mensagem:</label>
+                        <select name="tipo-mensagem"  required>
+                            <option value="sugestao">Sugestão de Série</option>
+                            <option value="comentario">Comentário sobre o Site</option>
+                            <option value="informacao">Informação sobre uma Série</option>
+                        </select>
+                  </div>
+                </div>
+                <div class="email linha">
+                    <label>Email:</label> <input type="email" minlength="14" required placeholder="Digite seu Email">
+                </div>
+                <div class="linha">
+                    <label>Mensagem:</label>
+                    <textarea name="mensagem" id="mensagem" required></textarea>
+                </div>
+                <div class="linha">
+                    <button type="submit" class="botao" value="Enviar">Enviar</button>
+                    <button type="reset" class="botao" value="Limpar">Limpar</button>
+                </div>
+              </form>
+          </div>
       </main>
 
       <hr>
